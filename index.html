@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"
+  </head>
+  <body>
+    <div>
+    <form name="Calculator">
+
+      <table width="50%" height="40%" border=solid black>
+        <tr>
+          <td colspan="5"><input id="screen" type="text" name="Input"></td>
+        </tr>
+        <tr>
+
+          <td class="numberpad"><input class="button" type="button" name="one" value="1" onclick="Calculator.Input.value+='1'"></td>
+          <td class="numberpad"><input class="button" type="button" name="two" value="2" onclick="Calculator.Input.value+='2'"></td>
+          <td class="numberpad"><input class="button" type="button" name="three" value="3" onclick="Calculator.Input.value+='3'"></td>
+          <td class="darkgray"><input class="button" type="button" name="divide" value="/" onclick="Calculator.Input.value+='/'"></td>
+          <td class="blue"><input class="button" type="button" name="allClear" value="AC" onclick="Calculator.Input.value=''"></td>
+
+        </tr>
+        <tr>
+
+          <td class="numberpad"><input class="button" type="button" name="four" value="4" onclick="Calculator.Input.value+='4'"></td>
+          <td class="numberpad" ><input class="button" type="button" name="five" value="5" onclick="Calculator.Input.value+='5'"></td>
+          <td class="numberpad" ><input class="button" type="button" name="six" value="6" onclick="Calculator.Input.value+='6'"></td>
+          <td class="darkgray" ><input class="button" type="button" name="multiply" value="*" onclick="Calculator.Input.value+='*'"></td>
+          <td class="blue"><input class="button" type="button" name="neg" value="+/-" onclick="Calculator.Input.value+='-'"></td>
+
+        </tr>
+        <tr>
+
+          <td class="numberpad"><input class="button" type="button" name="seven" value="7" onclick="Calculator.Input.value+='7'"></td>
+          <td class="numberpad"><input class="button" type="button" name="eight" value="8" onclick="Calculator.Input.value+='8'"></td>
+          <td class="numberpad"><input class="button" type="button" name="nine" value="9" onclick="Calculator.Input.value+='9'"></td>
+          <td class="darkgray"><input type="button" name="subtract" value="-" onclick="Calculator.Input.value+='-'"></td>
+          <td class="blue"><input class="button" type="button" name="average" value="Avg" onclick="Calculator.Input.value+='Avg'"></td>
+
+        </tr>
+        <tr>
+
+          <td class="numberpad" colspan="2"><input class="button" type="button" name="zero" value="0" onclick="Calculator.Input.value+='0'"></td>
+          <td class="numberpad"><input class="button" type="button" name="percent" value="." onclick="Calculator.Input.value='.'"></td>
+          <td class="darkgray"><input class="button" type="button" name="plus" value="+" onclick="Calculator.Input.value+='+'"></td>
+          <td class="blue"><input class="button" type="button" name="equals" value="=" onclick="Calculator.Input.value=eval(Calculator.Input.value)"></td>
+
+        </tr>
+      </table>
+    </form>
+  </div>
+  <!--     <script>
+    
+      function getAvg(){
+        calcSum / numOfInputs??
+      }
+
+  </script> -->
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#screen{
+ width: 99%;
+}
+
+.numberpad{
+  background-color: gray;
+}
+
+.darkgray{
+  background-color: darkgray;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.button{
+  font-size: 50;
+  margin: 25%;
+}
+
+td{
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
